@@ -40,8 +40,9 @@
                             <p>
                                 In my spare time I enjoy biking, scuba diving, and coaching baseball for
                                 my son's Little League team.  Like everyone I have more half finished
-                                hobby projects than I know what to do with, maybe one day I will have the time
-                                to finish one off.
+                                hobby projects than I know what to do with, along with a github account filled
+                                with sites which are no longer deployed and a bunch of embarrassing code from
+                                when I first got started.
                             </p>
                         </div>
                     </div>
@@ -67,6 +68,7 @@
                                                 the dive calculator section, which lets you get some important stats off the
                                                 PADI dive tables.
                                             </p>
+                                            <br>
                                             <p>
                                                 It is written in Laravel with some Vue sprinkled in, running on a typical
                                                 LAMP stack on a small Digital Ocean droplet. You can find the github
