@@ -2,6 +2,7 @@
 namespace Deployer;
 
 require 'recipe/laravel.php';
+//require 'recipe/npm.php';
 
 // Project name
 set('application', 'Bielecki');
@@ -38,8 +39,18 @@ task('build', function () {
     run('cd {{release_path}} && build');
 });
 
+task('npm-install', function () {
+    run('{{bin/npm}} install');
+});
+
+task('npm-prod', function () {
+    run('{{bin/npm}} run production');
+});
+
 // [Optional] if deploy fails automatically unlock.
 after('deploy:failed', 'deploy:unlock');
+after('artisan:optimize', 'npm-install');
+after('npm-install', 'npm-prod');
 
 // Migrate database before symlink new release.
 
