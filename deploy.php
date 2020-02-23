@@ -2,7 +2,7 @@
 namespace Deployer;
 
 require 'recipe/laravel.php';
-//require 'recipe/npm.php';
+require './vendor/deployer/recipes/recipe/npm.php';
 
 // Project name
 set('application', 'Bielecki');
@@ -39,18 +39,15 @@ task('build', function () {
     run('cd {{release_path}} && build');
 });
 
-task('npm-install', function () {
-    run('{{bin/npm}} install');
+task('npm-prod', function () {
+    run("cd {{release_path}} && {{bin/npm}} run production");
 });
 
-task('npm-prod', function () {
-    run('{{bin/npm}} run production');
-});
+after('artisan:optimize', 'npm:install');
+after('npm:install', 'npm-prod');
 
 // [Optional] if deploy fails automatically unlock.
 after('deploy:failed', 'deploy:unlock');
-after('artisan:optimize', 'npm-install');
-after('npm-install', 'npm-prod');
 
 // Migrate database before symlink new release.
 
