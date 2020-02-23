@@ -13,7 +13,7 @@
                         </div>
                         <div class="card-content">
                             <p>
-                                Hello, welcome to my homepage.  I am Andrew Bielecki, a software
+                                Hello, thanks for stopping by.  I am Andrew Bielecki, a software
                                 engineer living just north of Boston, MA.  I am still relatively
                                 new to the field (about 4 years now) as I spent over a decade after
                                 university working as a bench scientist in the biopharmaceutical industry.
