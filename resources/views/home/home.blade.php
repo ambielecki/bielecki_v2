@@ -6,6 +6,11 @@
             <div class="columns is-multiline is-clearfix">
                 <div class="column is-two-thirds is-pulled-right">
                     <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="/images/benny_desk.jpg" alt="Lego Benny Sitting at Desk in front of A-Wing">
+                            </figure>
+                        </div>
                         <div class="card-content">
                             <p>
                                 Hello, welcome to my homepage.  I am Andrew Bielecki, a software
@@ -56,7 +61,7 @@
                                     <div class="media">
                                         <div class="media-left">
                                             <figure class="image is-96x96">
-                                                <a href="https://divelog.andrewbielecki.com" target="_blank"><img src="/images/divelogrepeat.png"></a>
+                                                <a href="https://divelog.andrewbielecki.com" target="_blank"><img src="/images/divelogrepeat.png" alt="Dive Boat link to DiveLogRepeat"></a>
                                             </figure>
                                         </div>
 
@@ -86,7 +91,7 @@
                                     <div class="media">
                                         <div class="media-left">
                                             <figure class="image is-48x48">
-                                                <img class="is-rounded" src="/images/avatar.jpg">
+                                                <img class="is-rounded" src="/images/avatar.jpg" alt="Lego Benny Avatar">
                                             </figure>
                                         </div>
 
