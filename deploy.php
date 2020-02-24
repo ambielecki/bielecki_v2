@@ -2,7 +2,6 @@
 namespace Deployer;
 
 require 'recipe/laravel.php';
-require './vendor/deployer/recipes/recipe/npm.php';
 
 // Project name
 set('application', 'Bielecki');
@@ -12,6 +11,10 @@ set('repository', 'git@github.com:ambielecki/bielecki_v2.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true);
+
+set('bin/npm', function () {
+    return run('which npm');
+});
 
 // Shared files/dirs between deploys
 add('shared_files', []);
@@ -39,12 +42,21 @@ task('build', function () {
     run('cd {{release_path}} && build');
 });
 
+task('npm-install', function () {
+    if (has('previous_release')) {
+        if (test('[ -d {{previous_release}}/node_modules ]')) {
+            run('cp -R {{previous_release}}/node_modules {{release_path}}');
+        }
+    }
+    run("cd {{release_path}} && {{bin/npm}} install");
+});
+
 task('npm-prod', function () {
     run("cd {{release_path}} && {{bin/npm}} run production");
 });
 
-after('artisan:optimize', 'npm:install');
-after('npm:install', 'npm-prod');
+after('artisan:optimize', 'npm-install');
+after('npm-install', 'npm-prod');
 
 // [Optional] if deploy fails automatically unlock.
 after('deploy:failed', 'deploy:unlock');
