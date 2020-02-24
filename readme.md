@@ -7,4 +7,3 @@ Live Site: <https://www.andrewbielecki.com>
 * CSS from [Bulma](https://bulma.io/)
 * Hosted on Digital Ocean LAMP (upgraded to PHP 7.3)
 * Deployed using [Deployer](https://deployer.org/)
-* I'll optimize the images a bit at some point
