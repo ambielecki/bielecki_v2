@@ -26,7 +26,6 @@
                 </div>
             </div>
         </section>
-        <br>
         @yield('layout')
         @stack('body_scripts')
     </div>

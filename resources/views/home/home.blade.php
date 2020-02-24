@@ -1,7 +1,7 @@
 @extends('layout.layout')
 
 @section('layout')
-    <section>
+    <section id="app_section">
         <div class="container">
             <div class="columns is-multiline is-clearfix">
                 <div class="column is-two-thirds is-pulled-right">
