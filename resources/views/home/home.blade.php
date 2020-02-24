@@ -8,7 +8,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image">
-                                <img src="/images/benny_desk.jpg" alt="Lego Benny Sitting at Desk in front of A-Wing">
+                                <img src="/images/benny_desk_ps.jpg" alt="Lego Benny Sitting at Desk in front of A-Wing">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -61,7 +61,7 @@
                                     <div class="media">
                                         <div class="media-left">
                                             <figure class="image is-96x96">
-                                                <a href="https://divelog.andrewbielecki.com" target="_blank"><img src="/images/divelogrepeat.png" alt="Dive Boat link to DiveLogRepeat"></a>
+                                                <a href="https://divelog.andrewbielecki.com" target="_blank"><img src="/images/divelogrepeat_ps.jpg" alt="Dive Boat link to DiveLogRepeat"></a>
                                             </figure>
                                         </div>
 
