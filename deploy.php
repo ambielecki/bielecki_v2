@@ -48,7 +48,7 @@ task('npm-install', function () {
             run('cp -R {{previous_release}}/node_modules {{release_path}}');
         }
     }
-    run("cd {{release_path}} && {{bin/npm}} install");
+    run("cd {{release_path}} && {{bin/npm}} ci");
 });
 
 task('npm-prod', function () {
