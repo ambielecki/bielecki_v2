@@ -57,30 +57,26 @@
                     <div class="columns is-multiline">
                         <div class="column is-full">
                             <div class="card">
-                                <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-left">
-                                            <figure class="image is-96x96">
-                                                <a href="https://divelog.andrewbielecki.com" target="_blank"><img src="/images/divelogrepeat_ps.jpg" alt="Dive Boat link to DiveLogRepeat"></a>
-                                            </figure>
-                                        </div>
+                                <div class="card-image">
+                                    <figure class="image">
+                                        <img src="/images/divelogrepeat_header.jpg" alt="Dive boat in Jamaica">
+                                    </figure>
+                                </div>
 
-                                        <div class="media-content">
-                                            <p>
-                                                You can find one of those half finished hobby projects here,
-                                                <a href="https://divelog.andrewbielecki.com" target="_blank">DiveLogRepeat</a>.
-                                                It is supposed to become a online divelog, but I've only finished off
-                                                the dive calculator section, which lets you get some important stats off the
-                                                PADI dive tables.
-                                            </p>
-                                            <br>
-                                            <p>
-                                                It is written in Laravel with some Vue sprinkled in, running on a typical
-                                                LAMP stack on a small Digital Ocean droplet. You can find the github
-                                                repo here: <a href="https://github.com/ambielecki/divelog_2019" target="_blank">Github Repo</a>.
-                                            </p>
-                                        </div>
-                                    </div>
+                                <div class="card-content">
+                                    <p>
+                                        You can find one of those half finished hobby projects here,
+                                        <a href="https://divelog.andrewbielecki.com" target="_blank">DiveLogRepeat</a>.
+                                        It is supposed to become a online divelog, but I've only finished off
+                                        the dive calculator section, which lets you get some important stats off the
+                                        PADI dive tables.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        It is written in Laravel with some Vue sprinkled in, running on a typical
+                                        LAMP stack on a small Digital Ocean droplet. You can find the github
+                                        repo here: <a href="https://github.com/ambielecki/divelog_2019" target="_blank">Github Repo</a>.
+                                    </p>
                                 </div>
                             </div>
                         </div>
