@@ -16,6 +16,8 @@ set('bin/npm', function () {
     return run('which npm');
 });
 
+set('default_timeout', 600);
+
 // Shared files/dirs between deploys
 add('shared_files', []);
 add('shared_dirs', []);
