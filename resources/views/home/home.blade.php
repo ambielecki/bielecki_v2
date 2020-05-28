@@ -83,6 +83,31 @@
 
                         <div class="column is-full">
                             <div class="card">
+                                <div class="card-image">
+                                    <figure class="image">
+                                        <img src="/images/beer_banner.jpg" alt="Homebrew Helper Beer Taps">
+                                    </figure>
+                                </div>
+
+                                <div class="card-content">
+                                    <p>
+                                        Continuing with the half finished sites we have
+                                        <a href="https://beer.andrewbielecki.com" target="_blank">Homebrew Helper</a>,
+                                        my final project from a Harvard Extension class, <a href="https://hesweb.dev/e28" target="_blank">DGMD E-28</a>.
+                                        It is a simple journal for saving information about your home brewed beers.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        This is a Vue Single Page Application backed by a Laravel api, again hosted on Digital Ocean.
+                                        You can find the github
+                                        repo here: <a href="https://github.com/ambielecki/e28/tree/master/p3" target="_blank">Github Repo</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column is-full">
+                            <div class="card">
                                 <div class="card-content">
                                     <div class="media">
                                         <div class="media-left">
