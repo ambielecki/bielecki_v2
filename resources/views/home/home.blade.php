@@ -98,7 +98,7 @@
                                     </p>
                                     <br>
                                     <p>
-                                        This is a Vue Single Page Application backed by a Laravel api, again hosted on Digital Ocean.
+                                        This is a Vue Single Page Application backed by a Laravel API, again hosted on Digital Ocean.
                                         You can find the github
                                         repo here: <a href="https://github.com/ambielecki/e28/tree/master/p3" target="_blank">Github Repo</a>.
                                     </p>
