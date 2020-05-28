@@ -17,7 +17,7 @@
                                 engineer living just north of Boston, MA.  I am still relatively
                                 new to the field (about 4 years now) as I spent over a decade after
                                 university working as a bench scientist in the biopharmaceutical industry.
-                                I will be finishing up my Master's degree in Information Management
+                                I recently graduated with my Master's degree in Information Management
                                 Systems from Harvard Extension School in the Spring of 2020.
                             </p>
                             <br>
