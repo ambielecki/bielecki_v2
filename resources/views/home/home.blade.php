@@ -38,7 +38,7 @@
                                 <a href="https://mobilefuse.com/" target="_blank">Mobilefuse</a>, an adtech company,
                                 primarily working with an in house dashboard written in Laravel,
                                 and a second project, also in Laravel, that focused more on ETL / cron scripts.  After
-                                Mobilrfuse I joined the team at <a href="https://www.healthcaresource.com/" target="_blank">Healthcaresource</a>,
+                                Mobilefuse I joined the team at <a href="https://www.healthcaresource.com/" target="_blank">Healthcaresource</a>,
                                 where I work on their assessments products which are written in both a homegrown PHP framework and Yii.
                             </p>
                             <br>
